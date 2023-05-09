@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "ansibletest5"
+  description: "ansibletest5"
+  annotations:
+    github.com/project-slug: hattondev/ansibletest5
+    backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://ansible-controller.wwtlab.net
+      title: Ansible Controller
+      icon: Website
+  tags:
+    - ansible
+    - playbook
+spec:
+  type: playbook
+  lifecycle: experimental
+  owner: "engineering"
